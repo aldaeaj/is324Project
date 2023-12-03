@@ -1,4 +1,4 @@
-#Abdulrahman Aldaeaj 443102297
+#Abdulrahman Aldaeaj 443102297[STARTS]
 
 
 import tkinter as tk
@@ -10,7 +10,7 @@ import csv
 import logging
 
 logging.basicConfig(filename='KSUGolfCartsApp.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
-#Abdulrahman Aldaeaj 443102297
+
 def hash_password(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
@@ -139,3 +139,4 @@ class KSUGolfCartsApp:
             else:
                 messagebox.showerror("Error", "Invalid ID or Password")
                 logging.warning(f"Failed login attempt with ID: {user_id}")
+# Abdulrahman Aldaeaj 443102297 [ENDS]
